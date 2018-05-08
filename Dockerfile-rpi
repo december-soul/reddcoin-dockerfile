@@ -31,7 +31,7 @@ ENV BDB_PREFIX /opt/db4
 RUN mkdir -p $BDB_PREFIX
 
 # Download Reddcoin Core sources
-ENV REDDCOIN_VERSION 2.0.0.0
+ENV REDDCOIN_VERSION 2.0.1.2
 ENV REDDCOIN_PACKAGE reddcoin-${REDDCOIN_VERSION}
 ENV REDDCOIN_ARCHIVE v$REDDCOIN_VERSION.tar.gz
 ENV REDDCOIN_DOWNLOAD https://github.com/reddcoin-project/reddcoin/archive/$REDDCOIN_ARCHIVE
